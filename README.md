@@ -26,7 +26,7 @@ Uma API RESTful para gerenciamento de tarefas e usuários. Ideal para equipes, g
 
 Este projeto tem como objetivo fornecer uma API simples e funcional para o gerenciamento de tarefas e usuários, com foco exclusivo nas operações básicas de CRUD (Create, Read, Update, Delete). Ele é ideal para fins educacionais, testes de integração, prototipagem de sistemas ou como base para projetos mais complexos.
 
-Não há sistema de autenticação ou controle de acesso implementado — todas as rotas estão abertas para facilitar o uso e a integração com outras aplicações ou front-ends em desenvolvimento.
+Não há sistema de autenticação ou controle de acesso implementado, todas as rotas estão abertas para facilitar o uso e a integração com outras aplicações ou front-ends em desenvolvimento.
 
 ---
 
