@@ -1,22 +1,23 @@
 # 📝 Task Manager API
 
-Uma API RESTful para gerenciamento de tarefas e usuários. Ideal para equipes, grupos ou indivíduos que desejam organizar suas atividades de forma eficiente, com controle de acesso, atribuição de responsabilidades e acompanhamento do progresso.
+# 👤 User Manager API
+
+Uma API RESTful para gerenciamento de usuários. Ideal para fins educacionais, testes de integração, prototipagem de sistemas ou como base para projetos mais complexos que envolvam operações básicas de cadastro, consulta, atualização e exclusão de dados.
 
 ---
 
-# 🧠 Desafio
-*O desafio é desenvolver uma API de gerenciamento de tarefas e usuários que possa ser utilizada por qualquer equipe, grupo ou indivíduo que deseje organizar suas atividades de forma eficiente. O sistema deve permitir o controle completo do ciclo de vida das tarefas, a gestão de usuários com diferentes níveis de acesso e a visualização clara do progresso das atividades.*
+## 🧠 Desafio
+
+O desafio é desenvolver uma API simples e funcional que permita o gerenciamento de usuários sem autenticação, login ou controle de acesso. O sistema deve oferecer rotas abertas para facilitar a integração com outras aplicações, com foco exclusivo nas operações CRUD.
 
 ---
 
-# 🎯 Objetivos do Sistema
-*Criar e gerenciar usuários com autenticação segura.*
+## 🎯 Objetivos do Sistema
 
-*Permitir a criação, consulta, atualização e exclusão de tarefas.*
-
-*Controlar o status das tarefas (ex: pendente, em andamento, concluída).*
-
-*Garantir segurança e integridade dos dados.*
+- Criar e gerenciar usuários com dados básicos como nome, e-mail e função.
+- Permitir a criação, consulta, atualização e exclusão de usuários.
+- Garantir organização e integridade dos dados.
+- Facilitar a integração com front-ends ou sistemas externos.
 
 ---
 
@@ -24,25 +25,23 @@ Uma API RESTful para gerenciamento de tarefas e usuários. Ideal para equipes, g
 
 ### ✅ Pré-requisitos
 
-Este projeto tem como objetivo fornecer uma API simples e funcional para o gerenciamento de tarefas e usuários, com foco exclusivo nas operações básicas de CRUD (Create, Read, Update, Delete). Ele é ideal para fins educacionais, testes de integração, prototipagem de sistemas ou como base para projetos mais complexos.
-
-Não há sistema de autenticação ou controle de acesso implementado, todas as rotas estão abertas para facilitar o uso e a integração com outras aplicações ou front-ends em desenvolvimento.
+Este projeto tem como objetivo fornecer uma API genérica e acessível para o gerenciamento de usuários. Todas as rotas são públicas e não há autenticação implementada, permitindo testes rápidos e integração direta com outras ferramentas.
 
 ---
 
 ### 🔧 Requisitos Funcionais
 
 - **Criar Usuário**  
-  Permitir o cadastro de novos usuários com informações como nome, e-mail e função. Cada usuário pode ser associado a uma ou mais tarefas.
+  Permitir o cadastro de novos usuários com informações como nome, e-mail e função.
 
 - **Listar Usuários**  
-  Retornar uma lista de todos os usuários cadastrados, com seus respectivos dados e tarefas atribuídas (se houver).
+  Retornar uma lista de todos os usuários cadastrados.
 
 - **Atualizar Usuário**  
-  Permitir a edição dos dados de um usuário existente, como nome ou e-mail.
+  Permitir a edição dos dados de um usuário existente.
 
 - **Deletar Usuário**  
-  Remover um usuário do sistema. Caso ele tenha tarefas associadas, essas podem ser excluídas ou mantidas conforme a lógica de negócio definida.
+  Remover um usuário do sistema de forma permanente.
 
 ---
 
@@ -50,9 +49,6 @@ Não há sistema de autenticação ou controle de acesso implementado, todas as 
 
 - **Performance**  
   A API deve responder às requisições em até 2 segundos, mesmo com grande volume de dados.
-
-- **Segurança**  
-  Autenticação via JWT e proteção das rotas com middleware de autorização.
 
 - **Disponibilidade**  
   Sistema acessível 24/7, com tolerância a falhas e logs de erro.
@@ -84,9 +80,6 @@ Não há sistema de autenticação ou controle de acesso implementado, todas as 
 
 ## 📂 Metodologia Utilizada  
 
-- **Metodologia Ágil:** Framework Scrum/Kanban</a>
+- **Metodologia Ágil:** Framework Scrum/Kanban
 
 ---
-
-
-
