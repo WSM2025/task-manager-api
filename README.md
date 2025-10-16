@@ -76,13 +76,26 @@ Uma API RESTful para gerenciamento de tarefas e usuários. Ideal para equipes, g
 
 ---
 
+## 📅 Planejamento de Entregas  
+
+- **SPRINT 1:** 18/09 a 25/09 ✅  
+- **SPRINT 2:** 25/09 a 02/10 ✅  
+- **SPRINT 3:** 02/10 a 09/10 ✅
+
+---
+
 ## 🚀 Tecnologias Utilizadas
 
-- HTML
-- CSS
-- MySQL
-- PHP
+- HTML (Estrutura)
+- CSS (Estilização)
+- MySQL (Banco de Dados)
+- PHP (Movimentação de Informação de forma dinâmica)
 
+---
+
+## 📂 Metodologia Utilizada  
+
+- **Metodologia Ágil:** Framework <a href="https://www.desenvolvimentoagil.com.br/scrum/" target="_blank">Scrum</a>
 
 ---
 
