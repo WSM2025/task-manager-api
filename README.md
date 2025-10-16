@@ -1,4 +1,8 @@
-# task-manager-api
+# 📝 Task Manager API
+
+Uma API RESTful para gerenciamento de tarefas e usuários. Ideal para equipes, grupos ou indivíduos que desejam organizar suas atividades de forma eficiente, com controle de acesso, atribuição de responsabilidades e acompanhamento do progresso.
+
+---
 
 ## 🧠 Desafio
 *O desafio é desenvolver uma API de gerenciamento de tarefas e usuários que possa ser utilizada por qualquer equipe, grupo ou indivíduo que deseje organizar suas atividades de forma eficiente. O sistema deve permitir o controle completo do ciclo de vida das tarefas, a gestão de usuários com diferentes níveis de acesso e a visualização clara do progresso das atividades.*
@@ -13,12 +17,6 @@
 *Controlar o status das tarefas (ex: pendente, em andamento, concluída).*
 
 *Garantir segurança e integridade dos dados.*
-
----
-
-# 📝 Task Manager API
-
-Uma API RESTful para gerenciamento de tarefas e usuários. Ideal para equipes, grupos ou indivíduos que desejam organizar suas atividades de forma eficiente, com controle de acesso, atribuição de responsabilidades e acompanhamento do progresso.
 
 ---
 
