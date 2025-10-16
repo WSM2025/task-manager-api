@@ -1,5 +1,3 @@
-# 📝 Task Manager API
-
 # 👤 User Manager API
 
 Uma API RESTful para gerenciamento de usuários. Ideal para fins educacionais, testes de integração, prototipagem de sistemas ou como base para projetos mais complexos que envolvam operações básicas de cadastro, consulta, atualização e exclusão de dados.
