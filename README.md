@@ -24,36 +24,24 @@ Uma API RESTful para gerenciamento de tarefas e usuários. Ideal para equipes, g
 
 ### ✅ Pré-requisitos
 
+Este projeto tem como objetivo fornecer uma API simples e funcional para o gerenciamento de tarefas e usuários, com foco exclusivo nas operações básicas de CRUD (Create, Read, Update, Delete). Ele é ideal para fins educacionais, testes de integração, prototipagem de sistemas ou como base para projetos mais complexos.
+
+Não há sistema de autenticação ou controle de acesso implementado — todas as rotas estão abertas para facilitar o uso e a integração com outras aplicações ou front-ends em desenvolvimento.
 ---
 
 ### 🔧 Requisitos Funcionais
 
-- **Cadastro de Usuários**  
-  Criar, editar, listar e excluir usuários com campos como nome, e-mail, senha e tipo de acesso.
+- **Criar Usuário**  
+  Permitir o cadastro de novos usuários com informações como nome, e-mail e função. Cada usuário pode ser associado a uma ou mais tarefas.
 
-- **Autenticação e Autorização**  
-  Login com geração de token JWT e controle de permissões por perfil (ex: admin, colaborador).
+- **Listar Usuários**  
+  Retornar uma lista de todos os usuários cadastrados, com seus respectivos dados e tarefas atribuídas (se houver).
 
-- **CRUD de Tarefas**  
-  Criar, editar, listar e excluir tarefas com título, descrição, status, prioridade, prazo e responsável.
+- **Atualizar Usuário**  
+  Permitir a edição dos dados de um usuário existente, como nome ou e-mail.
 
-- **Atribuição de Tarefas**  
-  Associar tarefas a usuários específicos e permitir reatribuições.
-
-- **Filtros e Busca**  
-  Consultar tarefas por status, usuário, prioridade ou intervalo de datas.
-
-- **Histórico de Atualizações**  
-  Registrar alterações nas tarefas (ex: mudança de status, edição de prazo).
-
-- **Comentários nas Tarefas**  
-  Permitir que usuários adicionem observações ou atualizações nas tarefas.
-
-- **Notificações Internas**  
-  Alertar usuários sobre novas tarefas ou mudanças relevantes.
-
-- **Relatórios Simples**  
-  Gerar listagens de tarefas por usuário, status ou período.
+- **Deletar Usuário**  
+  Remover um usuário do sistema. Caso ele tenha tarefas associadas, essas podem ser excluídas ou mantidas conforme a lógica de negócio definida.
 
 ---
 
@@ -95,7 +83,7 @@ Uma API RESTful para gerenciamento de tarefas e usuários. Ideal para equipes, g
 
 ## 📂 Metodologia Utilizada  
 
-- **Metodologia Ágil:** Framework <a href="https://www.desenvolvimentoagil.com.br/scrum/" target="_blank">Scrum</a>
+- **Metodologia Ágil:** Framework Scrum/Kanban</a>
 
 ---
 
